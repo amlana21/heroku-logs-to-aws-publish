@@ -1,0 +1,13 @@
+{
+    "name": "logsinstance",
+    "description": "role for the heroku logs instance",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "recipe[monitorlogsec2::bootstrapec2]"
+    ]
+}
